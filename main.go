@@ -6,7 +6,7 @@ import (
 	"log"
 )
 
-const webContent = "cardmenu:v99"
+const webContent = "cardmenu:v100"
 
 func main() {
 	http.HandleFunc("/", helloHandler)
